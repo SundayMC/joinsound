@@ -1,0 +1,18 @@
+name: JoinSound
+version: 1.0
+author: SundayMC
+main: fr.sundaymc.joinsound.JoinSoundMain
+softdepend: [PlaceholderAPI]
+loadbefore: [MyPenalties]
+
+commands:
+  joinsound:
+    description: Recharger le fichier de configuration
+
+permissions:
+  joinsound.reload:
+    default: op
+  joinsound.havejoinsound:
+    default: op
+  joinsound.havequitsound:
+    default: op

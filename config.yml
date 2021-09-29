@@ -1,0 +1,17 @@
+Sound-On-Join: true
+Sound-On-Quit: true
+Sound-Join: UI_TOAST_CHALLENGE_COMPLETE
+Sound-Quit: BLOCK_BEACON_DEACTIVATE
+Volume: 100
+Pitch: 1
+Plugin-Prefix: '&f&lJoin&e&lSound &8>>'
+Help-Message:
+  - '&8&m--------------&f &f&lJoin&e&lSound &8&m--------------------'
+  - ''
+  - '&a>> &e&l/joinsound reload &7- Recharger le fichier de configuration'
+  - '&8&m-----------------------------------------------'
+No-Permission: '%prefix% &cYou do not have permissions to execute this command'
+Reload-Message: '%prefix% &aConfiguration loaded successfully'
+Unknown-Message: '%prefix% &cUnknown command, you can only use &e/joinsound reload &f/ &eoptions'
+Only-Player: '%prefix% &cYou can''t run that command from console!'
+Reload-Name: '&2Reload Config'
